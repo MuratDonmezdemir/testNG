@@ -5,32 +5,212 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3811add-aa42-4563-bdad-723672514492" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FacebookPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TestotomasyonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ToFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WebUniversityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C01_BasicDriverClassKullanimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C02_PageClassKullanimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C03_FacebookTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C04_DropdownTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C05_WebUniversity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C01_IlkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C03_dependsOnMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C02_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C02_Priority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day_15testNGFramework/C01_IlkTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MuratDonmezdemir&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MuratDonmezdemir/testNG.git&quot;,
+    &quot;accountId&quot;: &quot;c986fdda-0eb3-404f-8394-1ed7405bcc89&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mZZc1u3TxzmyE8qgIMThUTKmVS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.BasicDriverClassKullanimi.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C01_IlkTest.aramaTesti.executor": "Run",
+    "TestNG.C01_IlkTest.executor": "Run",
+    "TestNG.C02_PageClassKullanimi.executor": "Run",
+    "TestNG.C02_Priority.wisequarterTesti.executor": "Run",
+    "TestNG.C03_FacebookTesti.executor": "Run",
+    "TestNG.C03_dependsOnMethods.anasayfaTesti.executor": "Run",
+    "TestNG.C03_dependsOnMethods.phoneAramaTesti.executor": "Run",
+    "TestNG.C03_methodlar.anasayfaTesti.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/JavaDemos/variable/Team145_TestNG_POM/src/main/java/org/example/Main.java"
+    "last_directory_selection": "C:/JavaDemos/variable/Team145_TestNG_POM/target/generated-test-sources/test-annotations",
+    "last_opened_file_path": "C:/JavaDemos/variable/Team145_TestNG_POM/src/main/java/utilities",
+    "onboarding.tips.debug.path": "C:/JavaDemos/variable/Team145_TestNG_POM/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tests.day_15testNGFramework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaDemos\variable\Team145_TestNG_POM\src\main\java\utilities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="TestNG" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C03_dependsOnMethods.anasayfaTesti">
+    <configuration name="BasicDriverClassKullanimi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team145_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day16_TestNG_Framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day16_TestNG_Framework" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_TestNG_Framework.BasicDriverClassKullanimi" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_PageClassKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team145_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day16_TestNG_Framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day16_TestNG_Framework" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_TestNG_Framework.C02_PageClassKullanimi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_FacebookTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team145_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day16_TestNG_Framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day16_TestNG_Framework" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_TestNG_Framework.C03_FacebookTesti" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_dependsOnMethods.anasayfaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team145_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15_testNGFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15_testNGFramework" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15_testNGFramework.C03_dependsOnMethods" />
+      <option name="METHOD_NAME" value="anasayfaTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_dependsOnMethods.phoneAramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team145_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15_testNGFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15_testNGFramework" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15_testNGFramework.C03_dependsOnMethods" />
+      <option name="METHOD_NAME" value="phoneAramaTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BasicDriverClassKullanimi" />
+      <item itemvalue="TestNG.C02_PageClassKullanimi" />
+      <item itemvalue="TestNG.C03_FacebookTesti" />
+      <item itemvalue="TestNG.C03_dependsOnMethods.anasayfaTesti" />
+      <item itemvalue="TestNG.C03_dependsOnMethods.phoneAramaTesti" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C03_dependsOnMethods.anasayfaTesti" />
+        <item itemvalue="TestNG.C03_dependsOnMethods.phoneAramaTesti" />
+        <item itemvalue="TestNG.C03_FacebookTesti" />
+        <item itemvalue="TestNG.C02_PageClassKullanimi" />
+        <item itemvalue="JUnit.BasicDriverClassKullanimi" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,15 +222,7 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
