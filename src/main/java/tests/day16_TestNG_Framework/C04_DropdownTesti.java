@@ -20,7 +20,7 @@ public class C04_DropdownTesti {
         ToFormPage toFormPage = new ToFormPage();
 
         Select selectGun = new Select( toFormPage.dtGunDropdownMenu );
-        selectGun.selectByIndex(5);
+        selectGun.selectByIndex(14);
 
         //3- Dogum tarihi ay seçeneğinden value kullanarak Nisan’i secin
 
@@ -29,7 +29,7 @@ public class C04_DropdownTesti {
 
         //4- Dogum tarihi yil seçeneğinden visible text kullanarak 1990’i secin
         Select selectYil = new Select(toFormPage.dtYilDropdownMenu );
-        selectYil.selectByVisibleText("1990");
+        selectYil.selectByVisibleText("1973");
 
 
         //5- Secilen değerleri konsolda yazdirin
@@ -39,7 +39,7 @@ public class C04_DropdownTesti {
 
         //6- Ay dropdown menüdeki tum değerleri(value) yazdırın
 
-        System.out.println( ReusableMethods.stringListeyeCevir(selectAy.getOptions()));
+       // System.out.println( ReusableMethods.stringListeyeCevir(selectAy.getOptions()));
 
         //7- Ay Dropdown menusunun boyutunun 13 olduğunu test edin
 

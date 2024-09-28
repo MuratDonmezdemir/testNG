@@ -8,6 +8,8 @@ import utilities.Driver;
 import java.util.List;
 
 public class TestotomasyonPage {
+    public WebElement signoutButonu;
+
     // WebElement'i gidip bulacak WebDriver objesidir
     // ama bu class'da henuz WebDriver objemizi tanitmadik
     public TestotomasyonPage(){
@@ -30,6 +32,21 @@ public class TestotomasyonPage {
     @FindBy(className = "prod-img")
     public List<WebElement> bulunanUrunElementleriList;
 
+    @FindBy(xpath = "//*[@class=' heading-sm mb-4']")
+    public WebElement ilkUrunIsimElementi;
+
+    @FindBy(xpath = "(//*[text()='Account'])[1]")
+    public WebElement accountLinki;
+
+    @FindBy(id = "email")
+    public WebElement emailKutusu;
+
+
+    @FindBy(id = "password")
+    public WebElement passwordKutusu;
+
+    @FindBy(id="submitlogin")
+    public WebElement signInButonu;
 
 
 }
