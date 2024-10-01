@@ -1,5 +1,4 @@
-
-package tests.day17_testNGFramework_Assertions;
+package tests.day17_TestNGFramework_Assertions;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,7 +8,7 @@ import utilities.Driver;
 
 public class C03_PositiveLoginTesti {
 
-    @Test
+    @Test (groups = {"smoke","sistem","e2e"})
     public void positiveLoginTesti(){
 
         //1- https://www.testotomasyonu.com/ anasayfasina gidin

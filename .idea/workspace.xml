@@ -5,29 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3811add-aa42-4563-bdad-723672514492" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/babayigitPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/t145_testNG_Practice/Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/t145_testNG_Practice/FilmArama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/t145_testNG_Practice/day03_testNG_Nutella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C01_QuitDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C02_DinamikTestDatasiKullanimi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C03_PositiveLoginTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C04_NegativeLoginTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C05_SingletonPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ZeroPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day17_TestNGFramework_Assertions/C06_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day18_TestNGAssertions_xmlFiles/C01_SoftAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/day18_TestNGAssertions_xmlFiles/C02_ZeroSoftAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/grupCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenClasslariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenFarkliHiyerarsileriBeraberCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenPackegeleriCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/parelelCalistirmaTestSeviyesinde.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/parelelCalistirma_classSeviyesinde.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/tümTestleriCalistirma.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FacebookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/TestotomasyonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TestotomasyonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ToFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ToFormPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/WebUniversityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/WebUniversityPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C01_BasicDriverClassKullanimi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C01_BasicDriverClassKullanimi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/babayigitPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/t145_testNG_Practice/Assertion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/t145_testNG_Practice/FilmArama.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/t145_testNG_Practice/day03_testNG_Nutella.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C02_PageClassKullanimi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C02_PageClassKullanimi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C03_FacebookTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C03_FacebookTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C04_DropdownTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C04_DropdownTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C05_WebUniversity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day16_TestNG_Framework/C05_WebUniversity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C01_QuitDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day17_TestNGFramework_Assertions/C01_QuitDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C02_DinamikTestDatasiKullanimi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day17_TestNGFramework_Assertions/C02_DinamikTestDatasiKullanimi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C03_PositiveLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day17_TestNGFramework_Assertions/C03_PositiveLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C04_NegativeLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day17_TestNGFramework_Assertions/C04_NegativeLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/day17_testNGFramework_Assertions/C05_SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day17_TestNGFramework_Assertions/C05_SingletonPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C01_IlkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C01_IlkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C02_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C02_Priority.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C03_dependsOnMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/day_15testNGFramework/C03_dependsOnMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
@@ -83,9 +93,15 @@
     "TestNG.C01_IlkTest.executor": "Run",
     "TestNG.C01_QuitDriver.executor": "Run",
     "TestNG.C01_QuitDriver.testotomasyonuTesti.executor": "Run",
+    "TestNG.C01_SoftAsserts.aramaTesti.executor": "Run",
+    "TestNG.C01_SoftAsserts.executor": "Run",
+    "TestNG.C02_DinamikTestDatasiKullanimi.aramaTesti.executor": "Run",
     "TestNG.C02_DinamikTestDatasiKullanimi.executor": "Run",
+    "TestNG.C02_PageClassKullanimi.aramaTesti.executor": "Run",
     "TestNG.C02_PageClassKullanimi.executor": "Run",
     "TestNG.C02_Priority.wisequarterTesti.executor": "Run",
+    "TestNG.C02_ZeroSoftAssert.executor": "Run",
+    "TestNG.C02_ZeroSoftAssert.test01.executor": "Run",
     "TestNG.C03_FacebookTesti.executor": "Run",
     "TestNG.C03_PositiveLoginTesti.executor": "Run",
     "TestNG.C03_dependsOnMethods.anasayfaTesti.executor": "Run",
@@ -94,8 +110,13 @@
     "TestNG.C04_DropdownTesti.dropdownTesti.executor": "Run",
     "TestNG.C04_DropdownTesti.executor": "Run",
     "TestNG.C04_NegativeLoginTesti.executor": "Run",
+    "TestNG.C04_NegativeLoginTesti.gecersizemailTesti.executor": "Run",
     "TestNG.C05_SingletonPattern.executor": "Run",
     "TestNG.C05_WebUniversity.executor": "Run",
+    "TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/grupCalistirma.xml.executor": "Run",
+    "TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenClasslariCalistirma.xml.executor": "Run",
+    "TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml.executor": "Run",
+    "TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenPackegeleriCalistirma.xml.executor": "Run",
     "TestNG.FilmArama.test02.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -103,7 +124,7 @@
     "last_directory_selection": "C:/JavaDemos/variable/Team145_TestNG_POM/target/generated-test-sources/test-annotations",
     "last_opened_file_path": "C:/JavaDemos/variable/Team145_TestNG_POM/src/main/java/utilities",
     "onboarding.tips.debug.path": "C:/JavaDemos/variable/Team145_TestNG_POM/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "inlay.hints"
@@ -116,6 +137,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaDemos\variable\Team145_TestNG_POM\src\main\java\utilities" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests.day17_testNGFramework_Assertions" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utilities" />
     </key>
@@ -127,52 +151,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FilmArama.test02">
-    <configuration name="C02_Priority.wisequarterTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/grupCalistirma.xml">
+    <configuration name="C02_DinamikTestDatasiKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team145_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15_testNGFramework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15_testNGFramework" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15_testNGFramework.C02_Priority" />
-      <option name="METHOD_NAME" value="wisequarterTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_FacebookTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team145_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day16_TestNG_Framework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day16_TestNG_Framework" />
-      <option name="MAIN_CLASS_NAME" value="tests.day16_TestNG_Framework.C03_FacebookTesti" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_NegativeLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team145_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day17_testNGFramework_Assertions.*" />
+          <option name="PATTERN" value="tests.day17_TestNGFramework_Assertions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.day17_testNGFramework_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17_testNGFramework_Assertions.C04_NegativeLoginTesti" />
+      <option name="MAIN_CLASS_NAME" value="tests.day17_testNGFramework_Assertions.C02_DinamikTestDatasiKullanimi" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -184,7 +173,7 @@
       <module name="Team145_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17_testNGFramework_Assertions.*" />
+          <option name="PATTERN" value="tests.day17_TestNGFramework_Assertions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,18 +186,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilmArama.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/grupCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team145_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="t145_testNG_Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="t145_testNG_Practice" />
-      <option name="MAIN_CLASS_NAME" value="t145_testNG_Practice.FilmArama" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/grupCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team145_TestNG_POM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenPackegeleriCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team145_TestNG_POM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/istenenPackegeleriCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -216,19 +217,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.FilmArama.test02" />
-      <item itemvalue="TestNG.C02_Priority.wisequarterTesti" />
-      <item itemvalue="TestNG.C04_NegativeLoginTesti" />
+      <item itemvalue="TestNG.C02_DinamikTestDatasiKullanimi" />
+      <item itemvalue="TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/grupCalistirma.xml" />
+      <item itemvalue="TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml" />
+      <item itemvalue="TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenPackegeleriCalistirma.xml" />
       <item itemvalue="TestNG.C05_SingletonPattern" />
-      <item itemvalue="TestNG.C03_FacebookTesti" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FilmArama.test02" />
+        <item itemvalue="TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/grupCalistirma.xml" />
+        <item itemvalue="TestNG.C02_DinamikTestDatasiKullanimi" />
         <item itemvalue="TestNG.C05_SingletonPattern" />
-        <item itemvalue="TestNG.C02_Priority.wisequarterTesti" />
-        <item itemvalue="TestNG.C04_NegativeLoginTesti" />
-        <item itemvalue="TestNG.C03_FacebookTesti" />
+        <item itemvalue="TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenPackegeleriCalistirma.xml" />
+        <item itemvalue="TestNG.C:/JavaDemos/variable/Team145_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml" />
       </list>
     </recent_temporary>
   </component>

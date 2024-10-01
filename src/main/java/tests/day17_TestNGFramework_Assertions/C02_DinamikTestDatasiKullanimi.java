@@ -1,4 +1,4 @@
-package tests.day17_testNGFramework_Assertions;
+package tests.day17_TestNGFramework_Assertions;
 
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pages.TestotomasyonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class C02_DinamikTestDatasiKullanimi {
 

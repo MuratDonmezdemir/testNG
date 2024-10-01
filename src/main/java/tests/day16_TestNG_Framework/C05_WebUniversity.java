@@ -2,6 +2,7 @@ package tests.day16_TestNG_Framework;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.WebUniversityPage;
@@ -9,8 +10,6 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 
 public class C05_WebUniversity {
-
-    private utilities.ReusableMethods ReusableMethods;
 
     @Test
     public void webdriverUniversityTesti(){

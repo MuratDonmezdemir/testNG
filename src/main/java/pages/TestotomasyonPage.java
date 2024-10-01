@@ -8,8 +8,6 @@ import utilities.Driver;
 import java.util.List;
 
 public class TestotomasyonPage {
-    public WebElement signoutButonu;
-
     // WebElement'i gidip bulacak WebDriver objesidir
     // ama bu class'da henuz WebDriver objemizi tanitmadik
     public TestotomasyonPage(){
@@ -47,6 +45,9 @@ public class TestotomasyonPage {
 
     @FindBy(id="submitlogin")
     public WebElement signInButonu;
+
+    @FindBy(xpath = "(//*[text()='Logout'])[2]")
+    public WebElement signoutButonu;
 
 
 }

@@ -1,4 +1,4 @@
-package tests.day17_testNGFramework_Assertions;
+package tests.day17_TestNGFramework_Assertions;
 
 import org.testng.annotations.Test;
 import utilities.ConfigReader;

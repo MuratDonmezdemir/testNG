@@ -16,154 +16,149 @@ import java.util.Set;
 
 public class ReusableMethods {
 
-    public static List<String> stringListeDonustur(List<WebElement> elementlerListesi){
 
-        List<String> stringlerListesi = new ArrayList<>();
+    // Webelement'lerden olusan listeyi,
+    // String'lerden olusan listeye ceviren bir method olusturalim
 
-        for (WebElement each : elementlerListesi
-             ) {
+    public static List<String> stringListeyeCevir(List<WebElement> elementListesi){
 
-            stringlerListesi.add(each.getText());
+        List<String> stringListesi = new ArrayList<>();
+
+        for (WebElement eachElement : elementListesi) {
+
+            stringListesi.add(eachElement.getText());
         }
 
-        return stringlerListesi;
+        return stringListesi;
     }
 
     public static void bekle(int saniye){
 
         try {
-            Thread.sleep(saniye*1000);
+            Thread.sleep( saniye*1000);
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+
         }
+
     }
 
-    public static void titleIleSayfaDegistir(String hedefSayfaTitle){
+    public static void switchToWindowByTitle(WebDriver driver , String istenenSayfaTitle){
+        Set<String> acikOlanWindowlarinWHDSeti = driver.getWindowHandles();
+        for (String eachWhd : acikOlanWindowlarinWHDSeti){
 
-        Set<String> tumWhdSeti = Driver.getDriver().getWindowHandles();
+            driver.switchTo().window(eachWhd);
+            ReusableMethods.bekle(1);
 
-        for (String each : tumWhdSeti
-             ) {
-
-            String eachTitle = Driver.getDriver().switchTo().window(each).getTitle();
-            if (eachTitle.equals(hedefSayfaTitle)){
+            if (driver.getTitle().equals(istenenSayfaTitle)){
                 break;
             }
-        }
 
+        }
     }
 
-    public static String ilkSayfaWhdIleIkinciSayfaWhdBul(WebDriver driver, String ilkSayfaWhd) {
+    public static void switchToWindowByUrl(WebDriver driver , String istenenSayfaUrl){
+        Set<String> acikOlanWindowlarinWHDSeti = driver.getWindowHandles();
+        for (String eachWhd : acikOlanWindowlarinWHDSeti){
 
-        Set<String > tumWhdSeti = driver.getWindowHandles();
+            driver.switchTo().window(eachWhd);
+            ReusableMethods.bekle(1);
 
-        tumWhdSeti.remove(ilkSayfaWhd);
+            if (driver.getCurrentUrl().equals(istenenSayfaUrl)){
+                break;
+            }
 
-        for (String each:tumWhdSeti
-             ) {
-            return each;
         }
-
-        return null; // bu satirin hic calismayacagini biliyoruz
-                     // sadece javanin endiselerini gidermek icin yazdik
     }
 
-    public static void tumSayfaTakeScreenshot(WebDriver driver){
-        // tum sayfanin fotografini cekip kaydedin
+    public static void getScreenshotTumSayfa(WebDriver driver,String ssIsmi){
+        // 1.adim olusturacagimiz dosyayolunu hazirlayalim
+        String dosyaYolu = "target/screenshots/"+ssIsmi+".png";
 
-        // 1.adim tss objesi olustur
+        // 2. TakesScreenshot objesi olusturalim
+
+        // TakesScreenshot tss = new TakesScreenshot();
+        // 'TakesScreenshot' is abstract; cannot be instantiated
 
         TakesScreenshot tss = (TakesScreenshot) driver;
 
-        // 2.adim fotografi kaydedecegimiz dosya yolu ile bir File olusturalim
-        //   her yeni kaydedilen resmin oncekinin ustune kaydedilmemesi icin
-        //   kaydedilecek dosya yolunu dinamik yapabiliriz
-        //   dinamik yapmak icin dosya yoluna tarih etiketi ekleyelim
+        // 3.adim screenshot'i kaydedecegimiz File'i olusturalim
 
-        LocalDateTime localDateTime = LocalDateTime.now();
-        DateTimeFormatter istenenFormat = DateTimeFormatter.ofPattern("yyMMddHHmmss");
-        String dinamikDosyaYolu = "target/screenshots/tumSayfaScreenshot" +
-                                    localDateTime.format(istenenFormat)+
-                                    ".jpg";
+        File tumsayfaSS = new File(dosyaYolu);
 
-        File tumSayfaScreenshot = new File(dinamikDosyaYolu);
+        // 4.adim screenshot'i alip gecici dosua olarak kaydedin
 
-        // 3.adim tss objesini kullanarak fotografi cekip, gecici bir dosyaya kaydedelim
+        File geciciResim = tss.getScreenshotAs(OutputType.FILE);
 
-        File geciciDosya = tss.getScreenshotAs(OutputType.FILE);
-
-        // 4.adim : gecici dosyayi, asil dosyaya kopyalayalim
+        // 5.adim gecici resmi asil dosyaya kopyalayalim
 
         try {
-            FileUtils.copyFile(geciciDosya,tumSayfaScreenshot);
+            FileUtils.copyFile(geciciResim,tumsayfaSS);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-        ReusableMethods.bekle(5);
     }
 
-    public static void tumSayfaTakeScreenshot(String testAdi,WebDriver driver){
-        // tum sayfanin fotografini cekip kaydedin
+    public static void getScreenshotTumSayfa(WebDriver driver){
 
-        // 1.adim tss objesi olustur
+        // 240924202034
+        LocalDateTime ldt = LocalDateTime.now(); // 2024-09-24T20-23-24-123432
+
+        DateTimeFormatter istenenFormat = DateTimeFormatter.ofPattern("yyMMddHHmmss");
+        String tarihEtiketi = ldt.format(istenenFormat);
+
+        // 1.adim olusturacagimiz dosyayolunu hazirlayalim
+        String dosyaYolu = "target/screenshots/TumSayfaSS"+tarihEtiketi+".png";
+
+        // 2. TakesScreenshot objesi olusturalim
+
+        // TakesScreenshot tss = new TakesScreenshot();
+        // 'TakesScreenshot' is abstract; cannot be instantiated
 
         TakesScreenshot tss = (TakesScreenshot) driver;
 
-        // 2.adim fotografi kaydedecegimiz dosya yolu ile bir File olusturalim
-        //   her yeni kaydedilen resmin oncekinin ustune kaydedilmemesi icin
-        //   kaydedilecek dosya yolunu dinamik yapabiliriz
-        //   dinamik yapmak icin dosya yoluna tarih etiketi ekleyelim
+        // 3.adim screenshot'i kaydedecegimiz File'i olusturalim
 
-        LocalDateTime localDateTime = LocalDateTime.now();
-        DateTimeFormatter istenenFormat = DateTimeFormatter.ofPattern("yyMMddHHmmss");
-        String dinamikDosyaYolu = "target/screenshots/"+
-                testAdi
-                +
-                localDateTime.format(istenenFormat)+
-                ".jpg";
+        File tumsayfaSS = new File(dosyaYolu);
 
-        File tumSayfaScreenshot = new File(dinamikDosyaYolu);
+        // 4.adim screenshot'i alip gecici dosua olarak kaydedin
 
-        // 3.adim tss objesini kullanarak fotografi cekip, gecici bir dosyaya kaydedelim
+        File geciciResim = tss.getScreenshotAs(OutputType.FILE);
 
-        File geciciDosya = tss.getScreenshotAs(OutputType.FILE);
-
-        // 4.adim : gecici dosyayi, asil dosyaya kopyalayalim
+        // 5.adim gecici resmi asil dosyaya kopyalayalim
 
         try {
-            FileUtils.copyFile(geciciDosya,tumSayfaScreenshot);
+            FileUtils.copyFile(geciciResim,tumsayfaSS);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-        ReusableMethods.bekle(5);
     }
 
-    public static void istenenWebelementScreenshot(WebElement istenenWebelement){
+    public static void getScreenshotWebElement(WebDriver driver, WebElement webElement){
 
-        // 1.adim screenshot alacagimiz webelementi locate et
+        LocalDateTime ldt = LocalDateTime.now(); // 2024-09-24T20-23-24-123432
 
-        // 2.adim scrennshot'i kaydedecegimiz file'i olusturalim
-        LocalDateTime localDateTime = LocalDateTime.now();
         DateTimeFormatter istenenFormat = DateTimeFormatter.ofPattern("yyMMddHHmmss");
-        String dinamikDosyaYolu = "target/screenshots/istenenWebelementScreenshot" +
-                localDateTime.format(istenenFormat)+
-                ".jpg";
+        String tarihEtiketi = ldt.format(istenenFormat);
 
+        // 1.adim olusturacagimiz dosyayolunu hazirlayalim
+        String dosyaYolu = "target/screenshots/WebElementSS"+tarihEtiketi+".png";
 
-        File istenenWebelementScreenshot = new File(dinamikDosyaYolu);
+        // 2- kullanacagimiz WebElementi locate edip, WebElement olarak kaydedin
+        //    parametre olarak gonderilen webElement'in ss alinacak
 
-        // 3.adim webelement uzerinden screenshot'i alip gecici bir dosyaya kaydedin
+        // 3- kaydedecegimiz file'i olusturun
 
-        File geciciDosya = istenenWebelement.getScreenshotAs(OutputType.FILE);
+        File webElementSS = new File(dosyaYolu);
 
-        // 4.adim gecici dosyayi asil dosyaya kopyalayalim
+        // 4- webElement uzerinden screenshot'i alip, gecici dosya olarak kaydedin
+
+        File geciciDosya = webElement.getScreenshotAs(OutputType.FILE);
+
+        // 5- gecici dosyayi asil dosyaya kopyala
 
         try {
-            FileUtils.copyFile(geciciDosya,istenenWebelementScreenshot);
+            FileUtils.copyFile(geciciDosya,webElementSS);
         } catch (IOException e) {
-            System.out.println("Screenshot kopyalanamadi");
             throw new RuntimeException(e);
         }
 
